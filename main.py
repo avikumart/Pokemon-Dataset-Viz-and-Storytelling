@@ -19,7 +19,7 @@ with col2:
 # description about the Pokemon and add the intro image about any of the pokemon
 _, col2, _ = st.columns([1, 5, 1])
 with col2:
-    st.image("Images\pokemon.jpeg", caption="Pokémon Cartoon Image (source: official website)",
+    st.image("Images/pokemon.jpeg", caption="Pokémon Cartoon Image (source: official website)",
             use_column_width=True)
     # add the header
     st.header("Pokémon Origin and History")
@@ -37,7 +37,7 @@ st.markdown("""The Pokémon franchise revolves around ***1010 fictional species*
 # all pokemon images
 _, col2, _ = st.columns([1, 4, 1])
 with col2:
-    st.image("Images\pokemons.jpg", caption="Pokémon Species Image (source: Wikipedia)",
+    st.image("Images/pokemons.jpg", caption="Pokémon Species Image (source: Wikipedia)",
             use_column_width=True)
 
 st.markdown("""
