@@ -7,7 +7,9 @@ def load_data(path):
     data = pd.read_csv(path, index_col=0)
     return data
 
-data = load_data("Data\pokemon.csv")
+# dataset path
+path = 'Data/pokemon.csv'
+data = load_data(path)
 
 # title of the dataviz page
 _, col2, _ = st.columns([1, 10, 1])
@@ -35,18 +37,18 @@ st.markdown("""The Pokémon franchise revolves around ***1010 fictional species*
 # all pokemon images
 _, col2, _ = st.columns([1, 4, 1])
 with col2:
-    st.image("Images\pokemons.jpg", caption="Pokémon Species Image (source: wikipedia)",
+    st.image("Images\pokemons.jpg", caption="Pokémon Species Image (source: Wikipedia)",
             use_column_width=True)
 
 st.markdown("""
             Each Pokémon has one or two "types", such as ***Fire, Water, or Grass.*** 
             In battle, certain types are strong against other types. For example, a Fire-type attack
             will do more damage to a Grass-type Pokémon—rather than a Water-type attack.
-            Pokémon's abilities/attributes like ***Speed***, ***Attack*** and ***Defense*** are given as a certain points which determines
+            Pokémon's abilities/attributes like ***Speed***, ***Attack***, and ***Defense*** are given as certain points which determines
             their effectiveness. For example, a Fire-type Pokémon's Speed is given as 10, while a Water-type
-            Pokémon's Speed is given as 100. Moveover, Their ***Hit points(HP)*** determine how much damage each pokémon can receive before
-            fainting. we will explore each Pokémon's skills thorugh interactive vizualization and learn more about 
-            Pokémon world! So are you excited to to see what's ahead?😃         
+            Pokémon's Speed is given as 100. Moreover, Their ***Hit points(HP)*** determine how much damage each pokémon can receive before
+            fainting. we will explore each Pokémon's skills through interactive visualization and learn more about 
+            Pokémon world! So are you excited to see what's ahead?😃         
             """)
 
 # add the vizes here by columns
@@ -129,7 +131,7 @@ becomes unable to battle. HP serves as an important aspect of gameplay as it
 determines a Pokémon's overall durability and ability to withstand attacks.""")
         elif selection2 == 'Attack':
             st.text("""Attack (often referred to as "ATK") is a metric that measures a Pokémon's 
-physical offensive power. It determines the damage dealt by physical moves, 
+physical offensive power. It determines the damage dealt with by physical moves, 
 such as using physical attacks like Tackle or Scratch. A higher Attack stat means 
 the Pokémon will inflict more damage with physical moves.""")
         elif selection2 == 'Defense':
@@ -151,8 +153,8 @@ Defense stat means the Pokémon can withstand special attacks more effectively.
         else:
             st.text("""Speed is a metric that measures a Pokémon's speed or agility in battles. 
 It determines the order in which Pokémon and their moves are executed during a battle.
-A higher Speed stat means the Pokémon will generally act before Pokémon with lower
-Speed stats. Speed can impact the ability to attack first, dodge opponent's moves, 
+A higher Speed stat means the Pokémon will generally act before Pokémon with a lower
+Speed stats. Speed can impact the ability to attack first, dodge the opponent's moves, 
 and utilize certain moves that depend on speed, such as Quick Attack or Agility.
                     """)
             
@@ -185,7 +187,7 @@ with col2:
     
     with st.expander(f"See the explanation"):
         st.text("""We can see that attack and defense are highly correlated with other which 
-shows that any Pokémon who's having higher attaking capacity has higher defense
+shows that any Pokémon who's having higher attacking capacity has higher defense
 capacity in general.
                 """)
     
