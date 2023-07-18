@@ -27,14 +27,17 @@ Pokémon world! look at the below link for the streamlit app and screen record.
 
 When I saw the dataset, I was instantly got captivated by the types of Pokémon and their abilities and skills. So I thought knowing more about their world and what skills they have and how they are comparable to each other would be great. I was also interested in visualizing each Pokémon image so I developed UI in a way that gives users all information about their favorite Pokémon. so that's how I came up with these ideas and visualized them using streamlit.
 
-Libraries used:
+**Libraries used:**
 1. Pandas
 2. Numpy
 3. Plotly
 4. Streamlit
 
+**Dataset source:** [Link](https://www.kaggle.com/datasets/rohanpatil63/pokemon-dataset)
+
 ### Screen recording:
 
+https://github.com/avikumart/Pokemon-Dataset-Viz-and-Storytelling/assets/88608935/ade4b7bd-b9db-4e52-9283-c5e120f2be88
 
 
 
