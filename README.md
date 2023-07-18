@@ -1,6 +1,6 @@
 # Theme: Pokémon Species and their Skills 
 
-**The story behind visualization of Pokémon species data visualizations📊**
+**The story behind Pokémon species data visualizations📊**
 
 The Pokémon franchise revolves around ***1010 fictional species*** of collectible monsters, 
 each having unique designs, skills, and powers. Conceived by ***Satoshi Tajiri*** in early 1989,
@@ -22,6 +22,10 @@ fainting. we will explore each Pokémon's skills through interactive visualizati
 Pokémon world! look at the below link for the streamlit app and screen record.
 
 ### Streamlit web application: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pokemon-species.streamlit.app/)
+
+**Thought process**
+
+When I saw the dataset, I was instantly got captivated by the types of Pokémon and their abilities and skills. So I thought knowing more about their world and what skills they have and how they are comparable to each other would be great. I was also interested in visualizing each Pokémon image so I developed UI in a way that gives users all information about their favorite Pokémon. so that's how I came up with these ideas and visualized them using streamlit.
 
 Libraries used:
 1. Pandas
